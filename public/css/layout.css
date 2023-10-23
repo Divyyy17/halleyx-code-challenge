@@ -1,0 +1,118 @@
+.sidenav {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #181414;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgba(230, 239, 230, 0.89);
+  display: block;
+  transition: color 0.3s;
+}
+
+.sidenav a:hover {
+  color: #46c487;
+}
+
+.sidenav p {
+  padding-bottom: 20px;
+  padding-left: 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color:rgb(210, 220, 219);
+  display: block;
+}
+
+.sidenav i {
+  padding-right: 10px;
+}
+
+.top-buttons {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.button {
+  padding: 8px 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid #46c487;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.button.publish
+
+{
+  background-color: #46c487; /* Green */
+  color: #fff; /* White text */
+  /* Add any additional styles you want for the "Preview" button */
+}
+
+
+.button:hover {
+  background-color: #46c487;
+}
+
+.publish {
+  border-radius: 5px;
+}
+
+.preview {
+  border-radius: 5px;
+}
+#layout1 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  display: flex;
+  border: 1px dashed rgb(127, 201, 127) ;
+  width: 40%; 
+  height: 80%;
+}
+
+#layout2 {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+  display: flex;
+  border: 1px dashed rgb(127, 201, 127) ;
+  width: 80%; 
+  height: 80%;
+}
+#layout3 {
+  position: fixed;
+  top: 270px;
+  right: 10px;
+  display: flex;
+  border: 1px dashed rgb(127, 201, 127) ;
+  width: 40%; 
+  height: 40.2%;
+}
+#layout4 {
+  position: fixed;
+  top: 75px;
+  right: 521px;
+  display: flex;
+  border: 1px dashed rgb(127, 201, 127)  ;
+  width: 40.1%; 
+  height: 75.5%;
+  border-right: none;
+  border-left: none;
+}
+#design{
+  position: fixed;
+  top: 15px;
+  left: 250px;
+  display: flex;
+}
